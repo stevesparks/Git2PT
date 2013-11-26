@@ -3,8 +3,7 @@ function b() {
     var x=document.body.innerHTML.replace(RE,"<a href='http://www.pivotaltracker.com/story/show/$1' window=_new>$&</a>");
     document.body.innerHTML=x;
 }
-alert('Trying');
-//b();
+b();
 
 
 
